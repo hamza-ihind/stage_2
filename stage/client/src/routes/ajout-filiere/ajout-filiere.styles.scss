@@ -1,0 +1,55 @@
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.add-filiere {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	gap: 250px;
+}
+
+.container {
+	display: relative;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 1.3rem;
+	min-width: auto;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+	& thead tr {
+		background-color: #08508b;
+		color: white;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	& th,
+	& td {
+		padding: 25px 20px;
+	}
+
+	& tbody tr {
+		border-bottom: 1px solid #dddddd;
+		text-align: center;
+	}
+
+	& tbody tr:nth-of-type(odd) {
+		background-color: white;
+	}
+
+	& tbody tr:nth-of-type(even) {
+		background-color: #dddddd;
+	}
+
+	.list-buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+}

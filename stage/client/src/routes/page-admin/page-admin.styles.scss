@@ -1,0 +1,12 @@
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 50px;
+
+	.links-container {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 200px;
+	}
+}
